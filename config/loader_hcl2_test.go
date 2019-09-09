@@ -6,8 +6,8 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	gohcl2 "github.com/hashicorp/hcl2/gohcl"
-	hcl2 "github.com/hashicorp/hcl2/hcl"
+	gohcl2 "github.com/hashicorp/hcl/v2/gohcl"
+	hcl2 "github.com/hashicorp/hcl/v2"
 )
 
 func TestHCL2ConfigurableConfigurable(t *testing.T) {
